@@ -1,4 +1,4 @@
-package calc_t2;
+package calculator;
 
 public class Calc {
 
