@@ -1,9 +1,4 @@
-/**
- * 
- */
 package calc_t2;
-
-
 
 public class Calc {
 
@@ -17,9 +12,15 @@ public class Calc {
 
     public double divide(int a, int b) {
         if (b == 0) {
-            throw new IllegalArgumentException("Cannot divide by zero");
+            throw new IllegalArgumentException(
+                "Cannot divide by zero"
+            );
         }
-
         return (double) a / b;
+    }
+
+    // New method added by Team 1
+    public int subtract(int a, int b) {
+        return a - b;
     }
 }
